@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto
+}
+
+/*start header style*/
+header {
+    color: #fff;
+    position: relative;
+    background: url(../images/computer-gadgets-iphone-163143.jpg);
+    background-size: cover;
+    text-align: center
+}
+
+header .text {
+    font-size: 35px;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .5);
+    letter-spacing: 10px;
+}
+
+header .text span {
+    color: #E6AC7A;
+}
+/*start header style*/
+
+/*start of chechout*/
+
+.checkout {
+    background: -webkit-gradient(linear, left top, left bottom, from(#282927), to(black));
+    background: linear-gradient(#282927, black);
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 50px;
+}
+
+.checkout section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.checkout form {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 0px #282828;
+    box-shadow: 0px 0px 0px #282828;
+}
+
+.checkout .contact {
+    width: 35%;
+    padding: 10px;
+    -webkit-box-shadow: 5px -2px 4px #282828;
+    box-shadow: 5px -2px 4px #282828;
+}
+
+.checkout .contact .contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.checkout .contact .contact-info div {
+    width: 100%;
+    height: 200px;
+    padding: 10px 0;
+}
+
+.checkout .contact i {
+    background: #E6AC7A;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.checkout .contact p {
+    display: inline-block;
+    padding: 10px 0 0;
+    width: 100%;
+}
+
+
+.checkout form div {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.checkout form div:nth-of-type(5),
+.checkout form div:nth-of-type(6) {
+    width: 100%;
+}
+
+.checkout form div input,
+textarea {
+    width: 100%;
+    display: block;
+    background: none;
+    border: 2px solid #3E3E3E;
+    color: #fff;
+    padding: 10px 7px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.checkout form div input:focus,
+textarea:focus {
+    border: 2px solid #E6AC7A
+}
+
+.checkout form div textarea {
+    height: 350px;
+    resize: vertical;
+}
+
+.checkout input[type=submit] {
+    background: none;
+    color: #fff;
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+    margin: 25px 0px;
+    letter-spacing: 8px;
+}
+
+.checkout input[type=submit]:hover {
+    background: #E6AC7A;
+}
+
+.checkout h3 {
+    color: #E6AC7A;
+    margin: 0px 0px 19px;
+    display: inline-block;
+}
+/*end of chechout*/
+
+/*map style*/
+.map {
+    width: 100%;
+    height: 400px
+}
+
+/*shopping-cart style*/
+.shopping-cart-content {
+    line-height: normal;
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    max-height: 507px;
+    overflow: hidden;
+    position: absolute;
+    top: 80px;
+    right: 45px;
+    display: none;
+    color: black;
+    overflow: auto;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.shopping-cart-content ul li {
+    overflow: hidden;
+    padding: 13px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.shopping-cart-content ul li:last-child {
+    border: 0;
+}
+
+.shopping-cart-content ul li .item-shopping-cart-content-img {
+    width: 20%;
+    float: left;
+}
+
+.shopping-cart-content ul li .item-shopping-cart-content-img img {
+    width: 100%;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item {
+    width: 75%;
+    float: right;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .nam-prc {
+    width: 65%;
+    float: left;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .nam-prc span {
+    display: block;
+    margin: 5px 0 10px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .nam-prc span strong {
+    font-weight: lighter;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .nam-prc .name-item {
+    color: #E6AC7A;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .qty-remove {
+    width: 35%;
+    float: right;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .qty-remove input {
+    display: block;
+    margin: 0px 0 10px;
+    padding: 5px;
+    width: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: lighter;
+    color: #6b6b6b;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.shopping-cart-content ul li .info-shopping-cart-item .qty-remove i {
+    float: right;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navbar .shopping-cart-content ul li .info-shopping-cart-item .qty-remove i:hover {
+    color: #E6AC7A;
+}
+
+.shopping-cart-content ul .subtotal {
+    background: #eee;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.shopping-cart-content ul .subtotal span {
+    color: #bd6920;
+}
+
+.shopping-cart-content ul a {
+    text-align: center;
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;
+    color: #fff;
+    background: #292929;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.shopping-cart-content ul a:hover {
+    background: #E6AC7A;
+}
+/*end of shopping-cart style*/

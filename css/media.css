@@ -1,0 +1,115 @@
+@media( min-width:992px ) and ( max-width:1200px )
+{
+    .navbar .shopping-cart-content { right: 10%; }
+    
+    .feedback .content-feedback .leave-message form .client-rate { margin-left: 110px }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 h2,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 h2 ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 h2 { font-size: 70px; }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 p ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 p ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 p { font-size: 16px; }
+    
+    .overlay-menu .restaurant-menu ul li .info-meal .buy-meal { margin: 10px 6px; font-size: 17px; }
+    
+    .overlay-menu .restaurant-menu ul li .info-meal .buy-meal .price { font-size: 18px; }
+    
+    .give-feedback { top: 14% }
+}
+
+
+@media( min-width:992px )
+{
+    
+      /*--------------------------- start page admin style ---------------------*/
+    
+     .tables-order .menu-restaurant .about-comment p{ width: 67%; }
+}
+
+
+@media( min-width:768px ) and ( max-width:991px )
+{
+ 
+    .client-feedback { margin-left: 30px }
+    
+    .feedback .content-feedback .show-more { width: 25% }
+    
+    .feedback .content-feedback .leave-message form .client-rate { font-size: 18px; margin-left: 56px }
+    
+    .footer { overflow: hidden}
+    
+    .footer .right { 
+        padding-bottom: 30px;
+        border-bottom: 1px solid #2c2d38;
+        margin-bottom: 30px;
+        border-right: 0; 
+        padding-right: 0
+    }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 h2 ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 h2 ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 h2 { font-size: 60px; }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 p ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 p ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 p { font-size: 14px }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 .more-info ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 .more-info, .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 .more-info { width: 27% }
+    
+    .sec-font { font-size: 26px }
+    
+    .overlay-menu .restaurant-menu ul li .info-meal .meal-name h3 { font-size: 18px }
+    
+    .overlay-menu .restaurant-menu ul li .info-meal .meal-name { width: 100%; }
+    
+    .overlay-menu .restaurant-menu ul li .info-meal .buy-meal { display: none}
+    
+    .overlay-menu .restaurant-menu .middle-menu a { width: 83% }
+    
+    .our-chefs .chef .info-chef h3 { font-size: 22px }
+    
+    .our-chefs .chef .info-chef .social-chef i{
+        
+        width: 23px;
+        height: 23px;
+        line-height: 25px;
+        margin: 0 4px
+    }
+}
+
+@media( min-width:582px ) and ( max-width:991px )
+{
+    
+    /*----------------------------- start page admin style -----------------------*/
+    
+    
+    .restaurant-tables { margin-bottom: 100px; }
+    .tables-order .online-order-list ,.outcome .info-outcome  { margin-bottom: 30px; }
+    .navbar .shopping-cart-content { right: 10%; }
+    
+}
+
+@media( min-width:582px ) and ( max-width:767px )
+{
+    .client-rate { margin-left: 160px; }
+    
+    .feedback .content-feedback .show-more { width: 32% }
+    
+    .feedback .content-feedback .leave-message form .client-rate { font-size: 16px; margin-left: 20px; }
+    
+    .feedback .content-feedback .leave-message form .data { width: 43% }
+    
+    .footer .our-address { margin: 30px 0; text-align: center}
+    
+    .footer .find-us{ margin-bottom: 30px }
+    
+        .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 h2 ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 h2 ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 h2 { font-size: 45px; }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 p ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 p ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 p { font-size: 13px }
+    
+    .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-1 .more-info ,.slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-2 .more-info, .slider .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .layer-3 .more-info { width: 35% }
+    
+    .our-features .features { margin-bottom: 30px; }
+    
+    .overlay-menu .tap-menu-bar .select-element span { font-size: 18px;}
+    
+    .overlay-menu .tap-menu-bar .select-element:after { display: none}
+    
+    .our-chefs .chef{ margin-bottom: 30px; }
+    
+}
+

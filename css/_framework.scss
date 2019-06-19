@@ -1,0 +1,247 @@
+body {
+	box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+	text-transform: capitalize;
+}
+/* ---------------------------  variables ------------------------------------*/
+
+$maincol: #E6AC7A;
+$seccol: #c79161;
+$tran: all .5s ease-in-out;
+$more: all 1.7s ease-in-out;
+$bord: all .3s ease-in-out;
+%trans {
+	-webkit-transition: $tran;
+	-moz-transition: $tran;
+	-o-transition: $tran;
+	-ms-transition: $tran;
+}
+%more {
+	-webkit-transition: $more;
+	-moz-transition: $more;
+	-o-transition: $more;
+	-ms-transition: $more;
+}
+%bord {
+	-webkit-transition: $bord;
+	-moz-transition: $bord;
+	-o-transition: $bord;
+	-ms-transition: $bord;
+}
+/* -------------------------------------------------------  framework ------------------------------  */
+
+
+.header{
+    margin-bottom: 50px;
+    color: $maincol;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+
+    span{
+
+        font-family: 'Oxygen', sans-serif;
+        font-weight: bold;
+        display: block;
+        color: #333;
+        margin-top: 15px;
+    }
+}
+
+/* start section bannar */
+
+.bannar{
+    
+    background-image: url('../images/24.jpg');
+    background-size: cover;
+    height: 500px;
+    line-height: 350px;
+    width: 100%;
+    
+    .header {
+        
+        margin: 200px 0; 
+        
+        span{ color: #fff }
+    }
+}
+
+/* end section bannar */
+
+
+/* start section leave-message */
+
+.leave-message {
+    margin: 100px 0;
+    text-align: center;
+    h3 {
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+        font-size: 34px;
+    }
+    .data {
+            @extend %bord;
+            box-shadow: none;
+            margin-bottom: 20px;
+            height: 55px;
+            color: #797474;
+            font-size: 18px;
+            position: relative;
+            border-radius: 0;
+            border: 1px solid #9a9999;
+        &:focus {
+            border-color: $maincol
+        }
+    }
+    textarea.data {
+        height: 250px;
+        resize: none;
+    }
+    .add-cart {
+        @extend %bord;
+        text-align: center;
+        display: block;
+        overflow: hidden;
+        width: 150px;
+        color: #fff;
+        background: #060606;
+        will-change: transform;
+        padding: 12px 9px 12px;
+        outline: none;
+        font: 400 18px/20px "Play", sans-serif;
+        text-transform: uppercase;
+        border: 1px solid #060606;
+        z-index: 2;
+        &:hover {
+            background: $maincol;
+            border-color: $maincol
+        }
+    }
+}
+ 
+/* end section leave-message */
+
+
+/* start section client-rate */
+
+.client-rate{
+
+    margin-left: 200px;
+    font-size: 15px;
+    color: #333;
+
+    i{
+        color: #ffcf3b;
+    }
+
+    .star-one {margin-left: 15px }
+}
+
+/* end section client-rate */
+
+.sec-font { font-family: 'Kaushan Script', cursive; }
+
+
+/* start section input-field from section contact-form */
+
+.input-field{
+
+    @extend %bord;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 45px;
+    border: 1px solid #f3f1f1;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    box-shadow: none;
+    outline: none;
+    height: 45px;
+
+    &:focus { border-color:  #000}
+}
+
+textarea { 
+
+    resize: none;
+    height: 250px !important ;
+}
+
+.send {
+
+    line-height: 32px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #E6AC7A;
+    border: 0;
+    color: #f3f3f3;
+
+    &:hover { background: #060606 }
+}
+
+/* end section input-field from section contact-form */
+
+
+
+/* start section give-feedback */
+
+.give-feedback{
+    
+    background: #fff;
+    width: 400px;
+    position: fixed;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
+    top: 20%;
+    left: -400px;
+    z-index: 20;
+    padding: 20px;
+    text-align: center;
+    
+    form{
+        
+        h3{ margin: 30px 0; color: #666 }
+        
+        .input-field{ font-size: 15px;width: 80%;}
+        
+        textarea { height: 150px !important ;}
+        
+        .btn-open-feedback{
+            
+            height: 40px;
+            width: 130px;
+            background: #00ac77;
+            color: #fff;
+            font-size: 16px;
+            line-height: 40px;
+            transform: rotate(90deg);
+            position: absolute;
+            right: -85px;
+            cursor: pointer;
+            top: 44%;
+            
+            i{ margin-left: 5px }
+        }
+        
+        ul{
+            margin-bottom: 30px;
+            
+            li{
+                display: inline-block;
+                margin: 0 5px;
+                cursor: pointer;
+
+                i{color: #f4c150}
+            }
+        }
+        
+        .send { 
+        
+            font-size: 14px;
+            font-weight: lighter;
+            padding: 5px 20px;
+        }
+    }
+}
+
+/* end section give-feedback */
